@@ -1,0 +1,21 @@
+# Audio
+persist.vendor.audio.sw_offload=true
+
+# Bluetooth
+bluetooth.device_id.product_id=16664
+persist.bluetooth.sw_offload=true
+
+# Device family
+ro.build.device_family=FL5BZ5MT5RG5
+
+# One-handed mode
+ro.support_one_handed_mode=false
+
+# Quick start
+ro.quick_start.device_id=rango
+
+# Touch
+ro.vendor.touch.gti0.resample_latency.enabled=true
+ro.vendor.touch.gti0.resample_latency_us=10000
+ro.vendor.touch.gti1.resample_latency.enabled=true
+ro.vendor.touch.gti1.resample_latency_us=7000

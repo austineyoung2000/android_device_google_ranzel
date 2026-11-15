@@ -1,0 +1,3 @@
+on init
+   insmod /lib/modules/fst2.ko
+   insmod /lib/modules/syna_touch.ko

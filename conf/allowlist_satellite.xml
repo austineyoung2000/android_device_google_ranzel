@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2024 The Android Open Source Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<config>
+    <!-- SCONE must get device location for satellite emergency communications. -->
+    <allow-ignore-location-settings package="com.google.android.apps.scone" attributionTag="satellite_esos" />
+
+    <!-- Satellite access controller must get device location for satellite emergency communications. -->
+    <allow-ignore-location-settings package="com.android.phone" attributionTag="telephony" />
+</config>
