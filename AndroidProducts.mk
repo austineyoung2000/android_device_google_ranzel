@@ -4,8 +4,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fold/aosp_rango.mk \
-    $(LOCAL_DIR)/fold/lineage_rango.mk \
+    $(LOCAL_DIR)/rango/aosp_rango.mk \
+    $(LOCAL_DIR)/rango/lineage_rango.mk \
     $(LOCAL_DIR)/aosp_blazer.mk \
     $(LOCAL_DIR)/aosp_mustang.mk \
     $(LOCAL_DIR)/aosp_frankel.mk \

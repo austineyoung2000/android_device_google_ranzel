@@ -79,7 +79,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     com.android.hardware.threadnetwork
 
-$(call soong_config_set,threadnetwork_apex,init_rc_namespace,device/google/ranzel/fold)
+$(call soong_config_set,threadnetwork_apex,init_rc_namespace,device/google/ranzel/rango)
 
 # VINTF
 DEVICE_MANIFEST_FILE += \

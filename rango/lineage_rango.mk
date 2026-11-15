@@ -9,7 +9,7 @@ $(call inherit-product, vendor/lineage/config/common_full_foldable_book_telephon
 
 # Inherit device configuration
 DEVICE_CODENAME := rango
-DEVICE_PATH := device/google/ranzel/fold
+DEVICE_PATH := device/google/ranzel/rango
 VENDOR_PATH := vendor/google/rango
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 

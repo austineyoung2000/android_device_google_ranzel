@@ -4,7 +4,7 @@ A unified LineageOS 24.0 repository for Pixel 10 Pro (`blazer`), Pixel 10 Pro XL
 
 ## Fusion design
 
-The LineageOS Muzel tree is the base at the repository root for the three slab devices. The LineageOS Rango tree is retained under `fold/`, with its own Soong namespace, board configuration, recovery, overlays, SELinux policy, VINTF, and extraction files. The top-level `AndroidProducts.mk` registers all eight AOSP and Lineage products. Paths in both trees point to their new locations; upstream vendor paths and device-specific product identities remain unchanged. Kernel dependencies remain separate. This layout keeps the foldable configuration isolated rather than applying it to the slab devices.
+The LineageOS Muzel tree is the base at the repository root for the three slab devices. The LineageOS Rango tree is retained under `rango/`, with its own Soong namespace, board configuration, recovery, overlays, SELinux policy, VINTF, and extraction files. The top-level `AndroidProducts.mk` registers all eight AOSP and Lineage products. Paths in both trees point to their new locations; upstream vendor paths and device-specific product identities remain unchanged. Kernel dependencies remain separate. This layout keeps the foldable configuration isolated rather than applying it to the slab devices.
 
 Upstream source commits used:
 

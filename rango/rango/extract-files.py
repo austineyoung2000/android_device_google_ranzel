@@ -72,7 +72,7 @@ extract_fns: extract_fns_user_type = {
 module = ExtractUtilsModule(
     'rango',
     'google',
-    device_rel_path='device/google/ranzel/fold/rango',
+    device_rel_path='device/google/ranzel/rango/rango',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,

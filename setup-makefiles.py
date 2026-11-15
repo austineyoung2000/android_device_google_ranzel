@@ -9,7 +9,7 @@ device="$1"
 shift
 case "$device" in
     blazer|mustang|frankel) dir="$root/$device" ;;
-    rango) dir="$root/fold/rango" ;;
+    rango) dir="$root/rango/rango" ;;
     *) echo "Unknown device: $device" >&2; exit 2 ;;
 esac
 cd "$dir"

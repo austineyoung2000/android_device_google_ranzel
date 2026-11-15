@@ -4,7 +4,7 @@
 #
 
 $(call inherit-product, device/google/laguna/aosp_common.mk)
-$(call inherit-product, device/google/ranzel/fold/device-rango.mk)
+$(call inherit-product, device/google/ranzel/rango/device-rango.mk)
 
 PRODUCT_NAME := aosp_rango
 PRODUCT_DEVICE := rango
